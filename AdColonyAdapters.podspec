@@ -30,7 +30,7 @@ TODO: AdColony Adapter for mediating through Mopub. Additional integration detai
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AdColonyAdapters/Classes/**/*'
+  s.source_files = 'AdColonyAdapters/*.{h,m}'
   
   # s.resource_bundles = {
   #   'AdColonyAdapters' => ['AdColonyAdapters/Assets/*.png']

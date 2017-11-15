@@ -12,7 +12,6 @@
 		BADB899BB4979AB6F19E6A4D49C4C08E /* Pods-AdColonyAdapters_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C99542B25317967F5CCECA31D710E06 /* Pods-AdColonyAdapters_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2B8176FBD31EB489E73A708C5FB99F1 /* AdColonyAdapters-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0AD2C91681B075D4F9B130B9FDB35E /* AdColonyAdapters-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4D3B1E149E78FF456A262650AA6C860 /* Pods-AdColonyAdapters_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AE1E369990DF3AA027D442002B3688 /* Pods-AdColonyAdapters_Tests-dummy.m */; };
-		E0F506A4A1F63A371C511E23A2601390 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D733847B06B9A248213E3763BE0901B /* ReplaceMe.m */; };
 		F474F80116178FA0AFF6AE23A55C6CB3 /* AdColonyAdapters-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6B39B88B738C4A644686D80AD07A4F /* AdColonyAdapters-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -27,24 +26,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D733847B06B9A248213E3763BE0901B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AdColonyAdapters/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		27620B9A1FBBE0DD00E6DEAB /* AdColonyGlobalMediationSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdColonyGlobalMediationSettings.h; sourceTree = "<group>"; };
+		27620B9B1FBBE0DD00E6DEAB /* AdColonyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdColonyController.h; sourceTree = "<group>"; };
+		27620B9C1FBBE0DD00E6DEAB /* AdColonyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdColonyController.m; sourceTree = "<group>"; };
+		27620B9D1FBBE0DD00E6DEAB /* AdColonyInstanceMediationSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdColonyInstanceMediationSettings.h; sourceTree = "<group>"; };
+		27620B9E1FBBE0DD00E6DEAB /* AdColonyInstanceMediationSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdColonyInstanceMediationSettings.m; sourceTree = "<group>"; };
+		27620B9F1FBBE0DD00E6DEAB /* AdColonyRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdColonyRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
+		27620BA01FBBE0DD00E6DEAB /* AdColonyGlobalMediationSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdColonyGlobalMediationSettings.m; sourceTree = "<group>"; };
+		27620BA11FBBE0DD00E6DEAB /* AdColonyInterstitialCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdColonyInterstitialCustomEvent.m; sourceTree = "<group>"; };
+		27620BA21FBBE0DD00E6DEAB /* AdColonyRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdColonyRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
+		27620BA31FBBE0DE00E6DEAB /* AdColonyInterstitialCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdColonyInterstitialCustomEvent.h; sourceTree = "<group>"; };
 		40431B1AD88F92267F9F9D78A8B59BCE /* Pods-AdColonyAdapters_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdColonyAdapters_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4FEA725B45AAE3CB9352DAC78DDE924C /* Pods-AdColonyAdapters_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdColonyAdapters_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B3EA467429830F35550F9E37DAD70F1 /* Pods-AdColonyAdapters_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdColonyAdapters_Tests.modulemap"; sourceTree = "<group>"; };
+		5B3EA467429830F35550F9E37DAD70F1 /* Pods-AdColonyAdapters_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AdColonyAdapters_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B541EF13CE0AAE81F4F7EB592DE80D4 /* AdColonyAdapters.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AdColonyAdapters.modulemap; sourceTree = "<group>"; };
+		7B541EF13CE0AAE81F4F7EB592DE80D4 /* AdColonyAdapters.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AdColonyAdapters.modulemap; sourceTree = "<group>"; };
 		7C99542B25317967F5CCECA31D710E06 /* Pods-AdColonyAdapters_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdColonyAdapters_Tests-umbrella.h"; sourceTree = "<group>"; };
 		83A605044C6EE9CDEA19843153B4D709 /* Pods-AdColonyAdapters_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdColonyAdapters_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8B9000A6AE03D6667BDE5C1B18F497A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94AE1E369990DF3AA027D442002B3688 /* Pods-AdColonyAdapters_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdColonyAdapters_Tests-dummy.m"; sourceTree = "<group>"; };
 		9FC2BF912A75F8643A8ADBAB60183250 /* AdColonyAdapters.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdColonyAdapters.xcconfig; sourceTree = "<group>"; };
-		AC2119850C4518998DD33F914302EFF1 /* AdColonyAdapters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AdColonyAdapters.framework; path = AdColonyAdapters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2119850C4518998DD33F914302EFF1 /* AdColonyAdapters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdColonyAdapters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C9E29F3355454DD6E174D2A63C36C5 /* Pods-AdColonyAdapters_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdColonyAdapters_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CDCC13E2E5CB5369862DCEC4F50C6132 /* Pods-AdColonyAdapters_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdColonyAdapters_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4B88C7303191538A13C1668D4F7E84F /* Pods-AdColonyAdapters_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdColonyAdapters_Tests-resources.sh"; sourceTree = "<group>"; };
 		DC6B39B88B738C4A644686D80AD07A4F /* AdColonyAdapters-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdColonyAdapters-dummy.m"; sourceTree = "<group>"; };
-		E21E7B313C04536F66BA804CFB1F9F9F /* Pods_AdColonyAdapters_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdColonyAdapters_Tests.framework; path = "Pods-AdColonyAdapters_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21E7B313C04536F66BA804CFB1F9F9F /* Pods_AdColonyAdapters_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdColonyAdapters_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0AD2C91681B075D4F9B130B9FDB35E /* AdColonyAdapters-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdColonyAdapters-umbrella.h"; sourceTree = "<group>"; };
 		F508F8DCF877D5971E3DC2F48D4C160F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF18C5513076DACB6E9FC23538552997 /* AdColonyAdapters-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdColonyAdapters-prefix.pch"; sourceTree = "<group>"; };
@@ -123,7 +131,16 @@
 		8668E8AE0ECDA62B5836644AA3A1EC58 /* AdColonyAdapters */ = {
 			isa = PBXGroup;
 			children = (
-				0D733847B06B9A248213E3763BE0901B /* ReplaceMe.m */,
+				27620B9B1FBBE0DD00E6DEAB /* AdColonyController.h */,
+				27620B9C1FBBE0DD00E6DEAB /* AdColonyController.m */,
+				27620B9A1FBBE0DD00E6DEAB /* AdColonyGlobalMediationSettings.h */,
+				27620BA01FBBE0DD00E6DEAB /* AdColonyGlobalMediationSettings.m */,
+				27620B9D1FBBE0DD00E6DEAB /* AdColonyInstanceMediationSettings.h */,
+				27620B9E1FBBE0DD00E6DEAB /* AdColonyInstanceMediationSettings.m */,
+				27620BA31FBBE0DE00E6DEAB /* AdColonyInterstitialCustomEvent.h */,
+				27620BA11FBBE0DD00E6DEAB /* AdColonyInterstitialCustomEvent.m */,
+				27620B9F1FBBE0DD00E6DEAB /* AdColonyRewardedVideoCustomEvent.h */,
+				27620BA21FBBE0DD00E6DEAB /* AdColonyRewardedVideoCustomEvent.m */,
 				59EEBBE8679BF283A1B1FB036774104A /* Support Files */,
 			);
 			name = AdColonyAdapters;
@@ -254,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F474F80116178FA0AFF6AE23A55C6CB3 /* AdColonyAdapters-dummy.m in Sources */,
-				E0F506A4A1F63A371C511E23A2601390 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
