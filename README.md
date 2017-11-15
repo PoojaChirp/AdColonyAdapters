@@ -1,5 +1,9 @@
 # AdColonyAdapters
 
+To Build this run
+
+pod lib lint --use-libraries --allow-warnings
+
 [![CI Status](http://img.shields.io/travis/PoojaChirp/AdColonyAdapters.svg?style=flat)](https://travis-ci.org/PoojaChirp/AdColonyAdapters)
 [![Version](https://img.shields.io/cocoapods/v/AdColonyAdapters.svg?style=flat)](http://cocoapods.org/pods/AdColonyAdapters)
 [![License](https://img.shields.io/cocoapods/l/AdColonyAdapters.svg?style=flat)](http://cocoapods.org/pods/AdColonyAdapters)

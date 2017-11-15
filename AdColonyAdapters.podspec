@@ -38,5 +38,8 @@ TODO: AdColony Adapter for mediating through Mopub. Additional integration detai
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+   s.dependency 'mopub-ios-sdk', '~> 4.18.0'
+   s.dependency 'AdColony', '~> 3.0'
+  
 end
