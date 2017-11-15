@@ -1,0 +1,16 @@
+PODS:
+  - AdColonyAdapters (0.1.0)
+
+DEPENDENCIES:
+  - AdColonyAdapters (from `../`)
+
+EXTERNAL SOURCES:
+  AdColonyAdapters:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AdColonyAdapters: 72595b07ee018376ed3c5ca94c222ef370588dfd
+
+PODFILE CHECKSUM: eb24bee96600f74b3cffcd16a544c591912ad323
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,22 @@
+{
+  "name": "AdColonyAdapters",
+  "version": "0.1.0",
+  "summary": "A short description of AdColonyAdapters.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PoojaChirp/AdColonyAdapters",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PoojaChirp": "pshashidhar@twitter.com"
+  },
+  "source": {
+    "git": "https://github.com/PoojaChirp/AdColonyAdapters.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AdColonyAdapters/Classes/**/*"
+}
