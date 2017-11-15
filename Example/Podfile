@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AdColonyAdapters_Tests' do
+  pod 'AdColonyAdapters', :path => '../'
+  
+  
+end
