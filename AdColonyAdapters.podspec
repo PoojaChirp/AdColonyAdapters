@@ -25,7 +25,7 @@ TODO: AdColony Adapter for mediating through Mopub. Additional integration detai
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'PoojaChirp' => 'pshashidhar@twitter.com' }
-  s.source           = { :git => 'https://github.com/PoojaChirp/AdColonyAdapters.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/PoojaChirp/AdColonyAdapters.git', :commit => "979b24fed48e9eedfc852857c75725b4b436409d"  }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
